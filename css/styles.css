@@ -1,0 +1,13 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./coinSection.css");
+@import url("./buttonsSection.css");
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #4dd0e1;
+    font-family: monospace;
+}

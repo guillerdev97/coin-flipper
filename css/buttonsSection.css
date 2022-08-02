@@ -1,0 +1,37 @@
+.buttonsSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  /*   border: 1px solid black; */
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 80px;
+   /*  border: 1px solid black; */
+}
+#doButton {
+    cursor: pointer;
+    width: 25%;
+    height: 40px;
+    border-radius: 7px;
+    transition: all .3s ease;
+}
+#doButton:hover {
+    color: #d5d8dd;
+    background-color: #202124;
+}
+#resetButton {
+    cursor: pointer;
+    width: 25%;
+    height: 40px;
+    border-radius: 7px;
+    transition: all .3s ease;
+}
+#resetButton:hover {
+    color: #d5d8dd;
+    background-color: #202124;
+}

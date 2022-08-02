@@ -1,0 +1,15 @@
+.coinSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+   /*  border: 1px solid black; */
+}
+.coin {
+    height: 230px;
+    width: 230px;
+   /*  background-image: url("../public/img/head.png"); */
+    background-color: red;
+    background-position: center;
+    border-radius: 230px;
+}
