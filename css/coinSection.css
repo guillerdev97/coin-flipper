@@ -6,10 +6,13 @@
    /*  border: 1px solid black; */
 }
 .coin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 230px;
     width: 230px;
-   /*  background-image: url("../public/img/head.png"); */
-    background-color: red;
+    background-image: url("../public/img/head.png");
     background-position: center;
     border-radius: 230px;
+    transition: all 1s ease;
 }
